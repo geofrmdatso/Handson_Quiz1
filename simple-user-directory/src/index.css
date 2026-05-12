@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  min-height: 100vh;
+}
+
+.app {
+  text-align: center;
+  padding: 40px;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-card {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.loading,
+.error {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
